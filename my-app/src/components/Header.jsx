@@ -3,9 +3,15 @@ import React from "react";
 function Header(){
     return(
         <header>
-            <h1>
-                CHANDIGARHTOURIST
-            </h1>
+            <div>
+                <h1>
+                    CHANDIGARHTOURIST
+                </h1>
+                <button>EXPLORE</button>
+                <button>TOURIST PLACES</button>
+                <button>CAFES</button>
+                <button>LOGIN</button>
+            </div>
         </header>
     )
 }
