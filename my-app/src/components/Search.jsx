@@ -1,13 +1,13 @@
 import React from "react";
 
-function SearchForm(){
+function Search(props){
     return(
         <div>
             <form>
-                <input placeholder="Search"></input>
+                <input id={props.id} placeholder="Search"></input>
             </form>
         </div>
     )  
 }
 
-export default SearchForm
+export default Search

@@ -1,14 +1,14 @@
 import React from "react";
-import Header from "./Header";
-import CenterRegion from "./CenterRegion";
-import SearchForm from "./SearchForm";
+import Home from "./Home";
+import Navbar from "./Navbar";
+
 
 function App() {
   return (
     <div>
-      <Header />
-      <CenterRegion />
-      <SearchForm/>
+      <Navbar/>
+      <Home/>
+      
     </div>
   );
 }

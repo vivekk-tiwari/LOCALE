@@ -1,0 +1,79 @@
+/* NAVBAR COMPONENT CSS */
+.Navbar_main{
+    margin-top: 15px;
+    display: flex;
+}
+
+.Navbar_heading{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.Navbar_link{
+    float: right;
+    margin-left: 750px;
+}
+
+#link1,#link2,#link3,#link4{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* //Dark theme switch */
+.form-check{
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+
+/* HOME COMPONENT CSS */
+#home_title{
+    font-size: 45px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+}
+
+#home_title1{
+    font-size: 55px;
+    margin-left: 220px;
+}
+
+.home_heading{
+    margin-top: 180px;
+}
+
+.home_main{
+    display: flex;
+}
+
+#home_img{
+    margin-top: 140px;
+    margin-left: 75px;
+}
+
+.home_image{
+    margin-top: 30px;
+}
+
+#home_search{
+    margin-top: 20px;
+    width: 600px;
+    margin-left: 75px;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.home_circle{
+    position: absolute;
+    width: 550px;
+    height: 500px;
+    background-color: rgb(185, 250, 129);
+    opacity: 70%;
+    border-radius: 50%;
+    margin-left: 330px;
+    margin-top: 30px;
+    z-index: -1;
+}
