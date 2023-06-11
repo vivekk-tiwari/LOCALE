@@ -6,12 +6,13 @@
 
 .Navbar_heading{
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    width: 350px;
 }
 
 .Navbar_link{
-    float: right;
-    margin-left: 750px;
+    margin-left: 620px;
 }
 
 #link1,#link2,#link3,#link4{
