@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 /* NAVBAR COMPONENT CSS */
 .Navbar_main{
     margin-top: 15px;
