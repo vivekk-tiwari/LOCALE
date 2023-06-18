@@ -99,7 +99,30 @@ body{
 /* EXPLORE COMPONENT CSS */
 #explore_img{
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 100px;
-    
+
+}
+
+#explore_title{
+    margin-left: 520px;
+    font-size: 45px;
+    width: 520px;
+}
+.explore_main{
+    margin-top: 60px;
+}
+#explore_title_2{
+    width: 750px;
+    font-size: 33px;
+    margin-left: 420px;
+}
+
+.explore_about{
+    display: flex;
+}
+#explore_d_1{
+    width: 250px;
+    margin-left:290px;
+    margin-top: 225px;
 }
