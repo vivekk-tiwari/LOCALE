@@ -89,6 +89,7 @@ body{
     width: 570px;
     height: 520px;
     background-color: rgb(185, 250, 129);
+    box-shadow: -2px 2px 43px -17px black;
     opacity: 70%;
     border-radius: 50%;
     right: -7.5%;
