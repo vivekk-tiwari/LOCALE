@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./Home";
 import Navbar from "./Navbar";
+import Explore from "./Explore";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Navbar/>
       <Home/>
+      <Explore/>
     </div>
   );
 }

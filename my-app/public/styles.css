@@ -1,4 +1,9 @@
-/* NAVBAR COMPONENT CSS */
+body{
+    width: 100vh;
+    overflow-x: hidden;
+}
+
+/*NAVBAR COMPONENT CSS */
 .Navbar_main{
     margin-top: 15px;
     width:1280px;
@@ -7,8 +12,9 @@
 
 .Navbar_heading{
     font-size: 30px;
+    font-family: 'Archivo Black', sans-serif;
     margin-left: 20px;
-    font-family: 'Poiret One', cursive;
+    /* font-family: 'Poiret One', cursive; */
     font-weight: 750;
     width: 350px;
 }
@@ -21,7 +27,8 @@
     text-decoration: none;
     color: black;
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   /*  font-family: 'Poppins', sans-serif; */
     font-weight: 200;
     padding-right: 15px;
     padding-left: 15px;
@@ -60,10 +67,9 @@
 }
 
 #home_img{
-    margin-top: 140px;
     margin-left: 75px;
-    height:500px;
-    width:500px
+    height:650px;
+    width:750px
 }
 
 .home_image{
@@ -80,12 +86,12 @@
 
 .home_circle{
     position: absolute;
-    width: 550px;
-    height: 500px;
+    width: 570px;
+    height: 520px;
     background-color: rgb(185, 250, 129);
     opacity: 70%;
     border-radius: 50%;
-    margin-left: 230px;
-    margin-top: 30px;
+    right: -7.5%;
+    top: 13%;
     z-index: -1;
 }
