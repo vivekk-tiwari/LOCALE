@@ -95,3 +95,11 @@ body{
     top: 13%;
     z-index: -1;
 }
+
+/* EXPLORE COMPONENT CSS */
+#explore_img{
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
