@@ -1,29 +1,28 @@
-body{
-    overflow-x: hidden;
-}
-
 /* NAVBAR COMPONENT CSS */
 .Navbar_main{
     margin-top: 15px;
+    width:1280px;
     display: flex;
 }
 
 .Navbar_heading{
     font-size: 30px;
     margin-left: 20px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-weight: 750;
     width: 350px;
 }
 
 .Navbar_link{
-    margin-left: 620px;
+    margin-left: 420px;
 }
 
 #link1,#link2,#link3,#link4{
     text-decoration: none;
     color: black;
     font-size: 20px;
-    font-family: 'Cardo', serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -40,11 +39,15 @@ body{
     font-size: 45px;
     margin-bottom: 0px;
     margin-left: 70px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 
 #home_title1{
     font-size: 55px;
     margin-left: 220px;
+    font-family: 'Poiret One', cursive;
+    font-weight:1000
 }
 
 .home_heading{
@@ -53,11 +56,14 @@ body{
 
 .home_main{
     display: flex;
+    width:1280px;
 }
 
 #home_img{
     margin-top: 140px;
     margin-left: 75px;
+    height:500px;
+    width:500px
 }
 
 .home_image{
@@ -79,7 +85,7 @@ body{
     background-color: rgb(185, 250, 129);
     opacity: 70%;
     border-radius: 50%;
-    margin-left: 330px;
+    margin-left: 230px;
     margin-top: 30px;
     z-index: -1;
 }

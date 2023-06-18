@@ -5,7 +5,7 @@ function Navbar(){
     return(
         <>
         <div className="Navbar_main">
-            <div className="Navbar_heading">Chandigarh Tourist</div>
+            <div className="Navbar_heading">LOCALE</div>
             <div className="Navbar_link">
                 <a id="link1" href="#">Explore</a>
                 <a id="link2" href="#">Tourist Places</a>

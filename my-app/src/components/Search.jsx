@@ -4,7 +4,7 @@ function Search(props){
     return(
         <div>
             <form>
-                <input id={props.id} placeholder="Search"></input>
+                <input id={props.id} placeholder="Search 🔍"></input>
             </form>
         </div>
     )  
