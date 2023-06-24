@@ -42,62 +42,76 @@ body{
 
 /* HOME COMPONENT CSS */
 #home_title{
-    font-size: 45px;
-    margin-bottom: 0px;
-    margin-left: 70px;
+    font-size: 2.8em;
+    margin-left:15%;
+    height: 5vh;
+    width: 40vw;
     font-family: 'Raleway', sans-serif;
     font-weight: 1000;
 }
 
 #home_title1{
-    font-size: 55px;
-    margin-left: 220px;
+    font-size: 4em;
+    margin-left: 32%;
     font-family: 'Poiret One', cursive;
-    font-weight:1000
+    font-weight: bold;
 }
 
 .home_heading{
-    margin-top: 180px;
+    margin-top: 25%;
 }
 
 .home_main{
     display: flex;
-    width:1280px;
 }
 
 #home_img{
-    margin-left: 75px;
-    height:650px;
-    width:750px
+    margin-left: 30%;
+    height: 55vh;
+
 }
 
 .home_image{
-    margin-top: 30px;
+    margin-top: 16%;
 }
 
 #home_search{
-    margin-top: 20px;
-    width: 600px;
-    margin-left: 75px;
+    margin-top:2%;
+    width: 40vw;
+    margin-left: 10%;
     border-radius: 20px;
-    padding: 8px;
+    padding: 0.5em;
 }
 
 .home_circle{
     position: absolute;
-    width: 570px;
-    height: 520px;
+    width: 41%;
+    height:67%;
     background-color: rgb(185, 250, 129);
     
     opacity: 70%;
     border-radius: 50%;
-    right: -7.5%;
-    top: 13%;
+    right: -10.5%;
+    top:9.5%;
     z-index: -1;
 }
 
 /* EXPLORE COMPONENT CSS */
+.explore_main{
+    margin-top: 30%;
+}
+#explore_img{
+    margin-left: 12%;
+    margin-top: 8%;
 
+}
+
+#explore_title{
+    margin-left: 70%;
+    font-size: 2.9em;
+    width: 40vw;
+    height: 7vh
+}
 #explore_img{
     margin-left: 100px;
     margin-top: 80px;
@@ -115,21 +129,75 @@ body{
 .explore_main{
     margin-top: 60px;
 }
+
 #explore_title_2{
+
+    width: 50vw;
+    font-size:2.1em;
+    margin-left: 55%;
     width: 750px;
     font-size: 33px;
     margin-left: 420px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+
 }
 
 .explore_about{
     display: flex;
 }
 #explore_d_1{
-    width: 350px;
+
+    width: 25vw;
+    margin-left:40%;
+    margin-top: 50%;
+}
+
+
+
+
+/* RESPONSIVENESS */
+
+/* @media (max-width:450px){
+    #home_title{
+    font-size: 13px;
+    margin-left: 10px;
+    }
+
+    #home_title1{
+        font-size: 22px;
+        margin-left: 33px;
+    }
+    .home_heading{
+        margin-top: 80px;
+    }
+    #home_search{
+    width: 200px;
+    height: 24px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    }
+    .home_circle{
+        width: 200px;
+        height:150px;
+        left: 260px;
+        top: 90px;
+    }
+    #home_img{
+        width: 180px;
+        height: 200px;
+        margin-left: 0px;
+    }
+} */
+
+  /*   width: 350px;
     margin-left:290px;
     margin-top: 225px;
     font-family: 'Rubik', sans-serif;
     font-size:27px;
-}
+} */
+
