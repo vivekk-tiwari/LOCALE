@@ -67,7 +67,7 @@ body{
 
 #home_img{
     margin-left: 30%;
-    height: 55vh;
+    height: 92%;
 
 }
 
@@ -80,7 +80,7 @@ body{
     width: 40vw;
     margin-left: 10%;
     border-radius: 20px;
-    padding: 0.5em;
+    padding: 1.8%;
 }
 
 .home_circle{
@@ -119,25 +119,20 @@ body{
 }
 
 #explore_title{
-    margin-left: 520px;
-    font-size: 60px;
-    width: 720px;
+    margin-left:60% ;
+    font-size: 3.5em;
     font-family: 'Poiret One', cursive;
     font-weight:1000;
-    margin-bottom: 50px;
 }
 .explore_main{
-    margin-top: 60px;
+    margin-top: 24%;
 }
 
 #explore_title_2{
-
-    width: 50vw;
     font-size:2.1em;
-    margin-left: 55%;
-    width: 750px;
-    font-size: 33px;
-    margin-left: 420px;
+    width: 110%;
+    margin-top: 3.6%;
+    margin-left:53%; 
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 
@@ -148,9 +143,9 @@ body{
 }
 #explore_d_1{
 
-    width: 25vw;
-    margin-left:40%;
-    margin-top: 50%;
+    width: 300%;
+    margin-left:250%;
+    margin-top: 250%;
 }
 
 
