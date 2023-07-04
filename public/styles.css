@@ -243,3 +243,29 @@ body{
 #photogallery_text{
     font-size: 2.8em;
 }
+
+
+/* ABOUT COMPONENT CSS */
+.about_main{
+    margin: 3em;
+    margin-left: 18%;
+    margin-top: 25%;
+    display: grid;
+    grid-template-columns: auto;
+}
+#about_text{
+    font-size: 2.8em;
+    margin-bottom: 0;
+    height: 8vh;
+}
+#about_text_2{
+    font-size: 1.8em;
+}
+.about_heading_2{
+    
+}
+#about_text_3{
+    margin-top: 15%;
+    font-size: 1.5em;
+
+}
