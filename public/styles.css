@@ -45,16 +45,14 @@ body{
     font-size: 2.8em;
     margin-left:15%;
     height: 5vh;
-    width: 40vw;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 1000;
+    width: 45vw;
+    font-family: 'PT Serif', serif;
 }
 
 #home_title1{
     font-size: 4em;
-    margin-left: 32%;
-    font-family: 'Poiret One', cursive;
-    font-weight: bold;
+    margin-left: 26%;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .home_heading{
@@ -78,7 +76,7 @@ body{
 #home_search{
     margin-top:2%;
     width: 40vw;
-    margin-left: 10%;
+    margin-left: 14%;
     border-radius: 20px;
     padding: 1.8%;
 }
@@ -110,7 +108,7 @@ body{
     margin-left: 70%;
     font-size: 2.9em;
     width: 40vw;
-    height: 7vh
+    height: 7vh;
 }
 #explore_img{
     margin-left: 100px;
@@ -119,10 +117,10 @@ body{
 }
 
 #explore_title{
-    margin-left:60% ;
+    margin-left:64% ;
+    height: 5.8vh;
     font-size: 3.5em;
-    font-family: 'Poiret One', cursive;
-    font-weight:1000;
+    font-family: 'PT Serif', serif;
 }
 .explore_main{
     margin-top: 24%;
@@ -132,70 +130,19 @@ body{
     font-size:2.1em;
     width: 110%;
     margin-top: 3.6%;
-    margin-left:53%; 
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-
+    margin-left:57%; 
+    font-family: 'PT Serif', serif;
 }
 
 .explore_about{
     display: flex;
 }
 #explore_d_1{
-
+    font-family: 'PT Serif', serif;
     width: 300%;
     margin-left:250%;
     margin-top: 250%;
 }
-
-
-
-
-/* RESPONSIVENESS */
-
-/* @media (max-width:450px){
-    #home_title{
-    font-size: 13px;
-    margin-left: 10px;
-    }
-
-    #home_title1{
-        font-size: 22px;
-        margin-left: 33px;
-    }
-    .home_heading{
-        margin-top: 80px;
-    }
-    #home_search{
-    width: 200px;
-    height: 24px;
-    margin-left: 10px;
-    margin-top: 0px;
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    border-right-width: 0px;
-    border-left-width: 0px;
-    }
-    .home_circle{
-        width: 200px;
-        height:150px;
-        left: 260px;
-        top: 90px;
-    }
-    #home_img{
-        width: 180px;
-        height: 200px;
-        margin-left: 0px;
-    }
-} */
-
-  /*   width: 350px;
-    margin-left:290px;
-    margin-top: 225px;
-    font-family: 'Rubik', sans-serif;
-    font-size:27px;
-} */
-
 
 /* PLace component CSS */
 #place_img_1,#place_img_2{
@@ -214,17 +161,17 @@ body{
 }
 #place_text_id_1,#place_text_id_2{
     text-decoration: none;
-    font-size: 1.4em;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 1000;
-    color: black;
+    font-size: 1.8em;
+    font-family: 'PT Serif', serif;
 }
 .places_main_2{
     margin-left: 45%;
 }
 .places_img{
-    
     padding: 1.7em;
+}
+#text1{
+    font-family: 'PT Serif', serif;
 }
 
 /* PHOTOGALLERY CSS */
@@ -242,11 +189,10 @@ body{
 .photogallery_heading{
     margin-top:25%;
     margin-left: 19%;
-    font-family: 'Poiret One', cursive;
-    font-weight: bold;
 }
 #photogallery_text{
     font-size: 2.8em;
+    font-family: 'PT Serif', serif;
 }
 
 
@@ -260,15 +206,13 @@ body{
 }
 #about_text{
     font-size: 2.8em;
+    font-family: 'PT Serif', serif;
     margin-bottom: 0;
     height: 8vh;
-    font-family: 'Poiret One', cursive;
-    font-weight: bold;
 }
 #about_text_2{
     font-size: 1.8em;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 1000;
+    font-family: 'PT Serif', serif;
 }
 .about_heading_2{
     
@@ -276,6 +220,46 @@ body{
 #about_text_3{
     margin-top: 15%;
     font-size: 1.5em;
-    font-family: 'Poiret One', cursive;
-    font-weight: bold;
+    font-family: 'PT Serif', serif;
+}
+
+
+/* TEAM_COMPONENT CSS */
+.team_main_2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#team_component_img{
+    width: 15vw;
+    height: 30vh;
+    border-radius:50% ;
+    box-shadow: 0px 4px 18px -4px rgb(60, 60, 60);;
+}
+#team_heading_text{
+    font-size: 2.5em;
+    font-family: 'PT Serif', serif;
+    margin-left: 6.3em;
+    width: 40vw;
+    height: 7vh;
+    margin-top: 4em;
+}
+.line{
+    width: 30vw;
+    height: 0.2vh;
+    background-color: black;
+    margin-left: 58%;
+}
+.team_main{
+    text-align: center;
+    margin-left: 22%;
+}
+.team_component{
+    margin:5em;
+    margin-left: 5em;
+    margin-top: 5.2em;
+}
+#team_component_text{
+    font-size: 1.5em;
+    font-family: 'PT Serif', serif;
+
 }
