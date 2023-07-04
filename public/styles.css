@@ -1,6 +1,7 @@
 body{
     width: 100vh;
     overflow-x: hidden;
+    background-color: #27374D;
 }
 
 /*NAVBAR COMPONENT CSS */
@@ -104,12 +105,12 @@ body{
 
 }
 
-#explore_title{
+/* #explore_title{
     margin-left: 70%;
     font-size: 2.9em;
     width: 40vw;
     height: 7vh;
-}
+} */
 #explore_img{
     margin-left: 100px;
     margin-top: 80px;
@@ -119,6 +120,7 @@ body{
 #explore_title{
     margin-left:64% ;
     height: 5.8vh;
+    width:40vw;
     font-size: 3.5em;
     font-family: 'PT Serif', serif;
 }
@@ -129,9 +131,10 @@ body{
 #explore_title_2{
     font-size:2.1em;
     width: 110%;
-    margin-top: 3.6%;
+    margin-top: 7%;
     margin-left:57%; 
     font-family: 'PT Serif', serif;
+    color:#27374D;
 }
 
 .explore_about{
@@ -140,8 +143,10 @@ body{
 #explore_d_1{
     font-family: 'PT Serif', serif;
     width: 300%;
-    margin-left:250%;
-    margin-top: 250%;
+    margin-left:150%;
+    margin-top: 100%;
+    font-size:2em;
+    color:#526D82;
 }
 
 /* PLace component CSS */
@@ -161,6 +166,7 @@ body{
 }
 #place_text_id_1,#place_text_id_2{
     text-decoration: none;
+    color:#27374D;
     font-size: 1.8em;
     font-family: 'PT Serif', serif;
 }

@@ -8,7 +8,7 @@ function Team(){
         <div className="team_main">
 
             <div className="team_heading">
-                <p id="team_heading_text">Our &nbsp;TEAM</p>
+                <p id="team_heading_text">OUR &nbsp;TEAM</p>
                 <div className="line"></div>
             </div>
             <div className="team_main_2">

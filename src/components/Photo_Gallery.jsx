@@ -4,7 +4,7 @@ function PhotoGallery(){
     return (
         <>
         <div className="photogallery_heading">
-            <p id="photogallery_text">PHOTO &nbsp;GALLERY</p>
+            <p id="photogallery_text">Photo &nbsp;Gallery</p>
         </div>
         <div className="PhotoGallery_main">
             <div id="carouselExampleCaptions" class="carousel slide">
