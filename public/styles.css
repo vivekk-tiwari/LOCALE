@@ -276,5 +276,6 @@ body{
 #about_text_3{
     margin-top: 15%;
     font-size: 1.5em;
-
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
 }
