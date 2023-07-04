@@ -215,6 +215,9 @@ body{
 #place_text_id_1,#place_text_id_2{
     text-decoration: none;
     font-size: 1.4em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1000;
+    color: black;
 }
 .places_main_2{
     margin-left: 45%;
@@ -239,6 +242,8 @@ body{
 .photogallery_heading{
     margin-top:25%;
     margin-left: 19%;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
 }
 #photogallery_text{
     font-size: 2.8em;
@@ -257,9 +262,13 @@ body{
     font-size: 2.8em;
     margin-bottom: 0;
     height: 8vh;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
 }
 #about_text_2{
     font-size: 1.8em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1000;
 }
 .about_heading_2{
     
