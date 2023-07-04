@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import Explore from "./Explore";
+import Places from "./Places";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar/>
       <Home/>
       <Explore/>
+      <Places/>
     </div>
   );
 }

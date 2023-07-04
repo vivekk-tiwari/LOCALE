@@ -196,3 +196,27 @@ body{
     font-size:27px;
 } */
 
+
+/* PLace component CSS */
+#place_img_1,#place_img_2{
+    width: 30vw;
+    height: 45vh;
+}
+.places_main_1,.places_main_2{
+    display: grid;
+    grid-template-columns: auto ;
+}
+.places_main{
+    display: flex;
+    margin-left: 10%;
+}
+#place_text_id_1,#place_text_id_2{
+    text-decoration: none;
+    font-size: 1.4em;
+}
+.places_main_2{
+    margin-left: 45%;
+}
+.places_img{
+    padding: 1.7em;
+}
