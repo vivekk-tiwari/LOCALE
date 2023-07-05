@@ -6,7 +6,7 @@ import Places from "./Places";
 import PhotoGallery from "./Photo_Gallery";
 import About from "./About";
 import Team from "./Team";
-
+import PlacesToVisit from "./Places_To_Visit";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
       <PhotoGallery/>
       <Team/>
       <About/>
+      <PlacesToVisit/>
     </div>
   );
 }
