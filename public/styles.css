@@ -149,30 +149,30 @@ body{
 }
 
 /* PLace component CSS */
-#place_img_1,#place_img_2{
+#feature_img_1,#feature_img_2{
     width: 30vw;
     height: 45vh;
     box-shadow:0px 9px 26px -8px rgb(79, 78, 78);
-    margin-top: 1.2em;
+    margin-top: 1.2em
 }
-.places_main_1,.places_main_2{
+.features_main_1,.features_main_2{
     display: grid;
     grid-template-columns: auto ;
 }
-.places_main{
+.features_main{
     display: flex;
     margin-left: 10%;
 }
-#place_text_id_1,#place_text_id_2{
+#feature_text_id_1,#feature_text_id_2{
     text-decoration: none;
     color:#27374D;
     font-size: 1.8em;
     font-family: 'PT Serif', serif;
 }
-.places_main_2{
+.features_main_2{
     margin-left: 45%;
 }
-.places_img{
+.features_img{
     padding: 1.7em;
 }
 #text1{
@@ -447,7 +447,7 @@ body{
     box-shadow:0px 9px 26px -8px rgb(79, 78, 78);
 }
 #main_5_img1,#main_5_img2{
-    margin-left: 10%;
+    margin-left:feature
 }
 .main_5_heading{
     margin-top: 20%;

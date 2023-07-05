@@ -1,9 +1,9 @@
 import React from 'react';
 
-function PlacesComponent(props){
+function FeaturesComponent(props){
     return (
-        <div className="placesComponent">
-                <div className="places_img">
+        <div className="featuresComponent">
+                <div className="features_img">
                     <a id={props.id_a} href={props.href}>{props.text}</a>
                     <img id={props.id_b} src={props.src} alt="" />
                 </div>
@@ -11,4 +11,4 @@ function PlacesComponent(props){
     );
 }
 
-export default PlacesComponent;
+export default FeaturesComponent;

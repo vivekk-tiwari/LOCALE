@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import Explore from "./Explore";
-import Places from "./Places";
+import Features from "./Features";
 import PhotoGallery from "./Photo_Gallery";
 import About from "./About";
 import Team from "./Team";
@@ -15,7 +15,7 @@ function App() {
       <Navbar/>
       <Home/>
       <Explore/>
-      <Places/>
+      <Features/>
       <PhotoGallery/>
       <Team/>
       <About/>
