@@ -423,6 +423,7 @@ body{
     font-size: 3.8em;
     font-family: 'PT Serif', serif;
     width: 30vw;
+    display: inline-block;
     height: 8vh;
 }
 #place_4_text3{
