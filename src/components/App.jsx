@@ -9,20 +9,22 @@ import Team from "./Team";
 import PlacesToVisit from "./Places_To_Visit";
 import DifferentPlaces from "./Different_Places";
 import Places6 from "./Places_6";
+import Places8 from "./Places_8";
 
 function App() {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/>
       <Home/>
       <Explore/>
       <Features/>
       <PhotoGallery/>
       <Team/>
-      <About/>
+      <About/> */}
       <PlacesToVisit/>
       <DifferentPlaces/>
       <Places6/>
+      <Places8/>
     </div>
   );
 }

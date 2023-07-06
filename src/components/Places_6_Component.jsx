@@ -6,7 +6,7 @@ function Places6Component(props){
 
             <div className="places_6_heading">
             <img src="./images/img_1.jpeg" alt="" id={props.id1} />
-            <p id="places_6_text">{props.text}</p>
+            <p id={props.id2}>{props.text}</p>
             </div>
 
         </div>
