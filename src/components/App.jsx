@@ -14,13 +14,13 @@ import Places8 from "./Places_8";
 function App() {
   return (
     <div>
-      {/* <Navbar/>
+      <Navbar/>
       <Home/>
       <Explore/>
       <Features/>
       <PhotoGallery/>
       <Team/>
-      <About/> */}
+      <About/>
       <PlacesToVisit/>
       <DifferentPlaces/>
       <Places6/>
