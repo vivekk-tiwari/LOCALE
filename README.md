@@ -6,7 +6,7 @@ LOCALE inspires local regional beauty of Chandigarh through showcasing the best 
 
 ## Tech/Framework Used
 
-* The frontend for Locale has been created using JS and CSS.
+* The frontend for Locale has been created using HTML, CSS and Javascript.
 * Locale uses React framework and has been deployed on Vercel
 
 
