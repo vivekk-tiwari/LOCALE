@@ -416,7 +416,7 @@ body{
 .place_4_heading{
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 1%;
     margin-left: 20%;
 }
 #place_4_text2{
