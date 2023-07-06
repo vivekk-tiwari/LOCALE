@@ -21,7 +21,7 @@ function PlacesToVisit(){
 
         <div className="place_2">
             <div className="place_2_heading">
-                <img id='place_2_img' src="./images/img_1.jpeg" alt="" />
+                <img id='place_2_img' src="./images/Le-Corbusier.webp" alt="" />
                 <p id="place_2_text">Here the radiance of nature and heart are within our reach. </p>
                 <p id="place_2_text_2">The city of Chandigarh is planned to human scale, It puts us in touch with the infinte cosmos and nature.</p>
                 <p id="place_2_text3">-Le Corbusier</p>
