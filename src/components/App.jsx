@@ -7,9 +7,7 @@ import PhotoGallery from "./Photo_Gallery";
 import About from "./About";
 import Team from "./Team";
 import PlacesToVisit from "./Places_To_Visit";
-import DifferentPlaces from "./Different_Places";
-import Places6 from "./Places_6";
-import Places8 from "./Places_8";
+
 
 function App() {
   return (
@@ -22,9 +20,6 @@ function App() {
       <Team/>
       <About/>
       <PlacesToVisit/>
-      <DifferentPlaces/>
-      <Places6/>
-      <Places8/>
     </div>
   );
 }

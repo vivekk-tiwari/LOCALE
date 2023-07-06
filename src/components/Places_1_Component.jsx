@@ -1,6 +1,6 @@
 import React from 'react';
 
-function PlacesToVisitComponent(props){
+function Places1Component(props){
     return (
         <div className="places_to_visit_img">
             <img id={props.id} src={props.src} alt="" />
@@ -8,4 +8,4 @@ function PlacesToVisitComponent(props){
     );
 }
 
-export default PlacesToVisitComponent;
+export default Places1Component;
