@@ -8,6 +8,7 @@ import About from "./About";
 import Team from "./Team";
 import PlacesToVisit from "./Places_To_Visit";
 import DifferentPlaces from "./Different_Places";
+import Places6 from "./Places_6";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <About/>
       <PlacesToVisit/>
       <DifferentPlaces/>
+      <Places6/>
     </div>
   );
 }
