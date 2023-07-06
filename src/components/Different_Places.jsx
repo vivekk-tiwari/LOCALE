@@ -13,12 +13,12 @@ function DifferentPlaces() {
             <DifferentPlacesComponent text="03" text1="ROSE GARDEN" text2="Painting based on a scene in a book"/>
         </div>
 
-        <div className="main_5_heading">
+        <div className="place_5_heading">
             SPRINGTIME &nbsp;BLOOM
         </div>
-        <div className="main_5">
-            <img id='main_5_img1' src="./images/img_1.jpeg" alt="" />
-            <img id='main_5_img2' src="./images/img_1.jpeg" alt="" />
+        <div className="place_5">
+            <img id='place_5_img1' src="./images/img_1.jpeg" alt="" />
+            <img id='place_5_img2' src="./images/img_1.jpeg" alt="" />
         </div>
         </>
     );
