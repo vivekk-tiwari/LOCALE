@@ -1,5 +1,6 @@
 import React from 'react';
 import Cafes2 from './Cafes_2';
+import Cafes3 from './Cafes_3';
 
 function Cafes() {
     return (
@@ -23,6 +24,7 @@ function Cafes() {
         </div>
 
         <Cafes2/>
+        <Cafes3/>
         </>
     );
 }
