@@ -525,3 +525,96 @@ body{
     height: 45vh;
     box-shadow:0px 9px 26px -8px rgb(79, 78, 78);
 }
+
+
+/* CAFES COMPONENT CSS */
+.cafes_main1,.cafes_main2,.cafes2_main1{
+    display: grid;
+    grid-template-columns: auto;
+}
+.cafes2_main2{
+    display: flex;
+    flex-direction: column;
+}
+.cafes_main2,.cafes2_main2{
+    margin-left: 45%;
+    margin-top: 5%;
+}
+.cafes_main,.cafes2_main{
+    display: flex;
+}
+.cafes2_main{
+    margin-top: 20%;
+    margin-left: 10%;
+}
+#cafes_img,#cafes2_img{
+    width: 25vw;
+    height: 40vh;
+    margin-top: 10%;
+    margin-left: 10%;
+    box-shadow:0px 9px 26px -8px rgb(79, 78, 78);
+}
+#cafes2_img{
+    margin-top: 35%;
+}
+.cafes2_heading{
+    display: flex;
+    margin-top: 5%;
+}
+.cafes2_heading1{
+    display: flex;
+    margin-top: 8%;
+}
+#cafes2_text4,#cafes_text5{
+    font-size: 2.4em;
+    font-family: 'PT Serif', serif;
+    margin-left: 10%;
+}
+#cafes_img3{
+    width: 20vw;
+    height: 30vh;
+    margin-left: 10%;
+    margin-top: 21%;
+    box-shadow:0px 9px 26px -8px rgb(79, 78, 78);
+}
+#cafes_img2{
+    width: 20vw;
+    height: 30vh;
+    margin-top: 10%;
+    box-shadow:0px 9px 26px -8px rgb(79, 78, 78);
+}
+#cafes2_img2{
+    width: 40vw;
+    height: 30vh;
+    box-shadow:0px 9px 26px -8px rgb(79, 78, 78);
+    margin-top: 10%;
+}
+.cafes_images{
+    display: flex;
+}
+#cafes_text1,#cafes2_text1{
+    font-size: 3em;
+    font-family: 'PT Serif', serif;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+}
+#cafes_text2,#cafes2_text2{
+    font-size: 1.5em;
+    font-family: 'PT Serif', serif;
+    width: 80%;
+    margin-left: 10%;
+}
+#cafes_text3{
+    font-size: 3em;
+    font-family: 'PT Serif', serif;
+}
+
+#cafes2_text3{
+    font-size: 1.5em;
+    font-family:'PT Serif', serif; 
+    margin-left: 10%;
+}
+#cafes_text5{
+    margin-left: 2%;
+}
