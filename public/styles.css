@@ -1,6 +1,5 @@
 body{
     width: 100vh;
-    overflow-x: hidden;
     background-color: #27374D;
 }
 
@@ -43,21 +42,18 @@ body{
 
 /* HOME COMPONENT CSS */
 #home_title{
-    font-size: 2.8em;
-    margin-left:15%;
-    height: 5vh;
-    width: 98%;
+    font-size: 2em;
     font-family: 'PT Serif', serif;
 }
 
 #home_title1{
-    font-size: 4em;
-    margin-left: 26%;
+    font-size: 3em;
     font-family: 'Archivo Black', sans-serif;
 }
 
 .home_heading{
     margin-top: 25%;
+    margin-left:20%;
 }
 
 .home_main{
@@ -77,7 +73,7 @@ body{
 #home_search{
     margin-top:2%;
     width: 40vw;
-    margin-left: 14%;
+    
     border-radius: 20px;
     padding: 1.8%;
 }
@@ -116,23 +112,23 @@ body{
     margin-top: 80px;
     margin-bottom: 100px;
 }
-
-#explore_title{
-    margin-left:64% ;
-    height: 5.8vh;
-    width:80%;
-    font-size: 3.5em;
-    font-family: 'PT Serif', serif;
-}
 .explore_main{
     margin-top: 24%;
 }
-
+#explore_title{
+    /* height: 5.8vh;
+    width:80%; */
+    font-size: 3.5em;
+    font-family: 'PT Serif', serif;
+}
+.explore_heading{
+    margin-left:50%;
+    width:150%;
+}
 #explore_title_2{
     font-size:2.1em;
-    width: 110%;
-    margin-top: 7%;
-    margin-left:57%; 
+    /* width: 110%; */
+    /* margin-top: 7%;  */
     font-family: 'PT Serif', serif;
     color:#27374D;
 }
