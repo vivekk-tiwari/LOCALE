@@ -11,7 +11,6 @@ function Home(){
             </div>
 
             <div className="home_image">
-                <div className="home_circle"></div>
                 <img id='home_img' src="./images/img.svg" alt="" />
             </div>
 

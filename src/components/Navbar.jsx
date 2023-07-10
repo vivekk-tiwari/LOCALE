@@ -11,8 +11,9 @@ function Navbar(){
                 <a id="link2" href="#">Tourist Places</a>
                 <a id="link3" href="#">Cafes</a>
                 <a id="link4" href="#">Login</a>
+                <DarkThemeSwitch/>
             </div>
-            <DarkThemeSwitch/>
+            
         </div>
         </>
     )

@@ -6,8 +6,10 @@ body{
 /*NAVBAR COMPONENT CSS */
 .Navbar_main{
     margin-top: 15px;
-    width:1280px;
-    display: flex;
+    width:100vw;
+    display: inline-flex;
+    height:8vw;
+    gap:30vw;
 }
 
 .Navbar_heading{
@@ -19,7 +21,8 @@ body{
 }
 
 .Navbar_link{
-    margin-left: 420px;
+    display:inline-flex;
+    gap:15px;
 }
 
 #link1,#link2,#link3,#link4{
@@ -29,15 +32,10 @@ body{
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    padding-right: 15px;
-    padding-left: 15px;
 }
 
 /* //Dark theme switch */
-.form-check{
-    margin-top: 6px;
-    margin-left: 5px;
-}
+
 
 
 /* HOME COMPONENT CSS */
@@ -52,23 +50,23 @@ body{
 }
 
 .home_heading{
-    margin-top: 25%;
-    margin-left:20%;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 8%;
 }
 
 .home_main{
-    display: flex;
-}
-
-#home_img{
-    margin-left: 30%;
-    height: 92%;
-
+    display: inline-flex;
+    gap:10vw;
+    height:30vw;
+    /* flex-wrap: wrap; */
 }
 
 .home_image{
-    margin-top: 16%;
+    display:flex;
 }
+
 
 #home_search{
     margin-top:2%;
