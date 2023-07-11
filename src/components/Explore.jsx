@@ -8,7 +8,6 @@ function Explore  ()  {
                 <p id='explore_title'>Elegance . Charm . Grace</p>
                 <p id='explore_title_2' >Celebrating Chandigarh in a way no one ever did!</p> 
             </div>
-
             <ExploreDescription/>
         </div>
     );

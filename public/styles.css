@@ -5,30 +5,30 @@ body{
 
 /*NAVBAR COMPONENT CSS */
 .Navbar_main{
-    margin-top: 15px;
-    width:100vw;
+    margin-top: 3%;
+    width:98vw;
     display: inline-flex;
     height:8vw;
     gap:30vw;
 }
 
 .Navbar_heading{
-    font-size: 38px;
-    margin-left: 20px;
+    font-size: 2em;
+    margin-left: 1em;
     font-family: 'Roboto Flex', sans-serif;
     font-weight: 750;
-    width: 350px;
+    width: 30%;
 }
 
 .Navbar_link{
     display:inline-flex;
-    gap:15px;
+    gap:1em;
 }
 
 #link1,#link2,#link3,#link4{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 1.2em;
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -42,11 +42,13 @@ body{
 #home_title{
     font-size: 2em;
     font-family: 'PT Serif', serif;
+    text-align: center;
 }
 
 #home_title1{
     font-size: 3em;
     font-family: 'Archivo Black', sans-serif;
+    text-align: center;
 }
 
 .home_heading{
@@ -58,16 +60,22 @@ body{
 
 .home_main{
     display: inline-flex;
-    gap:10vw;
+    width:65vw;
+    gap:8vw;
     height:30vw;
+    margin-top: 5vh;
     /* flex-wrap: wrap; */
 }
 
 .home_image{
-    display:flex;
+    display:inline-flex;
+    justify-content: center;
 }
 
-
+#home_img{
+    height:45vh;
+    width:45vw;
+}
 #home_search{
     margin-top:2%;
     width: 40vw;
@@ -76,7 +84,7 @@ body{
     padding: 1.8%;
 }
 
-.home_circle{
+/* .home_circle{
     position: absolute;
     width: 41%;
     height:67%;
@@ -87,11 +95,13 @@ body{
     right: -10.5%;
     top:9.5%;
     z-index: -1;
-}
+} */
 
 /* EXPLORE COMPONENT CSS */
 .explore_main{
-    margin-top: 30%;
+    margin-top: 20%;
+    display:inline-flex;
+    flex-direction: column;
 }
 #explore_img{
     margin-left: 12%;
@@ -111,7 +121,11 @@ body{
     margin-bottom: 100px;
 }
 .explore_main{
-    margin-top: 24%;
+    margin-top: 20%;
+    /* height:100vh; */
+    /* width:98vw; */
+    margin-bottom:25%;
+    gap:10%;
 }
 #explore_title{
     /* height: 5.8vh;
@@ -120,8 +134,8 @@ body{
     font-family: 'PT Serif', serif;
 }
 .explore_heading{
-    margin-left:50%;
     width:100%;
+    margin-left:50%;
 }
 #explore_title_2{
     font-size:2.1em;
@@ -131,15 +145,17 @@ body{
     color:#27374D;
 }
 
-.explore_about{
-    display: flex;
+.explore_about_main{
+    display: inline-flex;
+    height:80vh;
+    width:80vh;
+    gap:10%;
 }
 #explore_d_1{
     font-family: 'PT Serif', serif;
-    width: 300%;
-    margin-left:150%;
-    margin-top: 100%;
     font-size:2em;
+    width:30vw;
+    margin-top:20%;
 }
 
 /* PLace component CSS */
