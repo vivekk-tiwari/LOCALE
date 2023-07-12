@@ -11,7 +11,7 @@ function Features(){
 
             <div className="features_main_2">
                 <FeaturesComponent id_a='feature_text_id_1' href='/cafes' text="Have a coffee date !" id_b='feature_img_1' src='./images/img_1.jpeg'/>
-                <FeaturesComponent id_a='feature_text_id_2' href='' text="Best stores around the city !" id_b='feature_img_2' src='./images/img_1.jpeg'/> 
+                <FeaturesComponent id_a='feature_text_id_2' href='/stores1' text="Best stores around the city !" id_b='feature_img_2' src='./images/img_1.jpeg'/> 
             </div>
         </div>
     );
