@@ -698,13 +698,115 @@ body{
 }
 
 /* STORES COMPONENT */
-
-/* #stores_main{
-    display:flex;
-    flex-direction: column;
-    color:red;
+.stores_main1{
+    margin-left: 75%;
 }
-.stores_1_img1{
-    
-    width:30px;
-} */
+.stores_heading{
+    width: 40vw;
+    margin-left: 60%;
+}
+#stores_1_text1{
+    font-family: 'PT Serif', serif;
+    font-size: 4em;
+    margin-bottom: 4%;
+    margin-top: 20%;
+    margin-left: 1.3em;
+}
+#stores_1_text2{
+    font-family: 'PT Serif', serif;
+    font-size: 4.5em;
+    margin-top: 3%;
+    height: 10vh;
+    width: 150%;
+}
+#stores_1_text3{
+    font-family: 'PT Serif', serif;
+    font-size: 2.7em;
+    width: 120%;
+    margin-left: 22%;
+
+}
+#stores_1_img{
+width: 20vw;
+height: 30vh;
+box-shadow:0px 9px 26px -8px rgb(79, 78, 78);
+margin-left: 24%;
+margin-top: 5%;
+}
+
+
+
+.stores_2_main{
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.stores_2_heading{
+    display: flex;
+}
+#stores_2_text1{
+    font-family: 'PT Serif', serif;
+    font-size: 4em;
+    margin-left: 15%;
+}
+
+.stores_2_images{
+    display: flex;
+    margin-bottom: 20%;
+}
+#stores_2_img1{
+    width: 30vw;
+    height: 40vh;
+    box-shadow:0px 9px 26px -8px rgb(79, 78, 78);
+    margin-left: 50%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+#stores_2_img2{
+    width: 15vw;
+    height: 40vh;
+    margin-top: 10%;
+    box-shadow:0px 9px 26px -8px rgb(79, 78, 78);
+}
+
+.stores_3_main{
+display: flex;
+margin-bottom: 20%;
+}
+.stores_3_images{
+    display: flex;
+    flex-direction: column;
+}
+.stores_3_heading{
+    font-size: 4em;
+    margin-left: 10%;
+    font-family: 'PT Serif', serif;
+}
+#stores_3_img1{
+    width: 25vw;
+    height: 40vh;
+    margin-top: 10%;
+    margin-left: 116%;
+    box-shadow:0px 9px 26px -8px rgb(79, 78, 78);
+}
+#stores_3_img2{
+    width: 20vw;
+    height: 35vh;
+    margin-left: 180%;
+    margin-top: 10%;
+    box-shadow:0px 9px 26px -8px rgb(79, 78, 78);
+}
+
+
+.stores_4_images{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7%;
+}
+#stores_4_heading{
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-size: 4em;
+    margin-left: 80%;
+    width: 20vw;
+}
