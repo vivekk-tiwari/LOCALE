@@ -9,6 +9,7 @@ import {
 import HomePage from "./Home_Page";
 import Cafes from "../Component_2/Cafes";
 import Stores from "./Stores";
+import Places10 from "./Places_10";
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
           <Route exact path="/placestovisit" element={<PlacesToVisit/>}/>
           <Route exact path="/cafes" element={<Cafes/>}/>
           <Route exact path="/stores" element={<Stores/>}/>
-
+          <Route exact path="/places10" element={<Places10/>}/>
         </Routes>
   </>
   );

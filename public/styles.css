@@ -810,3 +810,127 @@ margin-bottom: 20%;
     margin-left: 80%;
     width: 20vw;
 }
+
+
+.main8{
+    display: flex;
+    flex-direction: column;
+}
+.main8_heading{
+    font-family: 'PT Serif', serif;
+    font-size: 3.5em;
+    margin-left:7em;
+    margin-top: 0.6em;
+    margin-bottom: 0.7em;
+    width: 60vw;
+}
+
+.main8_images{
+    display: flex;
+    margin-left:15%;
+}
+#main8_img1{
+    width: 18vw;
+    height: 45vh;
+    box-shadow:0px 9px 26px -8px rgb(79, 78, 78);
+    margin-left: 6%;
+}
+
+.main9_heading1{
+    display: flex;
+    flex-direction: column;
+}
+
+.main9_heading2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10em;
+}
+
+.main9,.main10{
+    display: flex;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+#main9_text1{
+    font-family: 'PT Serif', serif;
+    font-size: 3.5em;
+    margin-top: 10%;
+}
+#main9_text2{
+    width: 35vw;
+    font-family: 'PT Serif', serif;
+    font-size: 1.2em;
+    margin-top: 10%;
+}
+#main9_text3{
+    font-family: 'PT Serif', serif;
+    font-size: 1.2em;
+}
+#main9_img1{
+    width: 25vw;
+    height: 35vh;
+    margin-bottom: 8%;
+    box-shadow:0px 9px 26px -8px rgb(79, 78, 78);
+}
+#main10_text1{
+    font-family: 'PT Serif', serif;
+}
+#main10_text3{
+    font-family: 'PT Serif', serif;
+    font-size: 1.3em;
+    margin-top: 5%;
+}
+#main10_img1{
+    width: 40vw;
+    height: 35vh;
+    box-shadow:0px 9px 26px -8px rgb(79, 78, 78);
+}
+.main10_heading2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20em;
+}
+.main11{
+    margin-left: 7%;
+    margin-bottom: 10%;
+    display: flex;
+}
+
+#main12_text{
+    font-family: 'PT Serif', serif;
+    font-size:3em;
+    margin-left: 10%;
+    margin-top: 2.2em;
+}
+.main12{
+    display: flex;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.main12_heading2{
+    display: flex;
+    flex-direction: column;
+}
+#main12_img2{
+    margin-top: 8em;
+    width: 21vw;
+    margin-left: 15em;
+    height: 55vh;
+    box-shadow:0px 9px 26px -8px rgb(79, 78, 78);
+}
+#main12_img1{
+    margin-left: 10em;
+    width: 30vw;
+    height: 40vh;
+    box-shadow:0px 9px 26px -8px rgb(79, 78, 78);
+}
+#main12_text3{
+    font-family: 'PT Serif', serif;
+    font-size: 1.2em;
+    margin-left: 8.2em;
+    margin-top: 2em;
+}
