@@ -1,5 +1,5 @@
 import React from 'react';
-import Places8Component from './Places_8_Component';
+
 
 function Unique3()  {
     return (
@@ -7,20 +7,13 @@ function Unique3()  {
         <div className="main10">
 
         <div className="main10_heading1">
-        <p id="main9_text1">About Chandigarh</p>
+        <h1 id="main9_text1">The first planned city of India</h1>
         </div>
 
         <div className="main10_heading2">
         <img src="./images/img_1.jpeg" alt="" id="main10_img1" />
-        <p id="main10_text3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nostrum impedit cumque inventore expedita, assumenda delectus distinctio autem! Nostrum tempora quaerat laudantium officia laborum amet facere minus incidunt fugiat cum!</p>
+        <p id="main10_text3">Chandigarh was the dream city of India’s first Prime Minister Jawaharlal Nehru. It was the first planned city and till now the best example of modern planning and architecture.</p>
         </div>
-
-        </div>
-
-        <div className="main11">
-            <Places8Component/>
-            <Places8Component/>
-            <Places8Component/>
         </div>
         </>
     );

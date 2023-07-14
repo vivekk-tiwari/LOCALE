@@ -1,23 +1,13 @@
-import React from 'react';
+import React from "react";
+import Unique4Component from "./Unique_4_Component";
 
-function Unique4  ()  {
+function Unique4(){
     return (
-        <>
-        <p id="main12_text">Witness heaven in Autumn</p>
-
-        <div className="main12">
-            <div className="main12_heading1">
-               <img src="./images/img_1.jpeg" alt="" id="main12_img2" />
-            </div>
-
-            <div className="main12_heading2">
-                <img src="./images/img_1.jpeg" alt="" id="main12_img1" />
-                <p id="main12_text3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nostrum impedit cumque inventore expedita, assumenda delectus distinctio autem! Nostrum tempora quaerat laudantium officia laborum amet facere minus incidunt fugiat cum!</p>
-            </div>
-
+        <div className="main11">
+            <Unique4Component text="Chandigarh holds the title of the greenest city in India. Tree plantation was a major part of the planning and it goes on throughout with no deforestation."/>
+            <Unique4Component text="Sector number 13 doesn’t exist in Chandigarh. It was a superstition that the number 13 is inauspicious and unlucky."/>
+            <Unique4Component text=" The City welcomes you with an open hand! It signifies peace and reconciliation."/>
         </div>
-        </>
-    );
+    )
 }
-
 export default Unique4;
