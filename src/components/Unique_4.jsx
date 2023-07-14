@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Places13  ()  {
+function Unique4  ()  {
     return (
         <>
         <p id="main12_text">Witness heaven in Autumn</p>
@@ -20,4 +20,4 @@ function Places13  ()  {
     );
 }
 
-export default Places13;
+export default Unique4;

@@ -1,9 +1,7 @@
 import React from 'react';
-import Places11 from './Places_11';
-import Places12 from './Places_12';
-import Places13 from './Places_13';
 
-function Places10(){
+
+function Unique1(){
     return (
         <>
         <div className="main8">
@@ -21,12 +19,8 @@ function Places10(){
         </div>
 
 
-        <Places11/>
-        <Places12/>
-        <Places13/>
-
     </>
     );
 }
 
-export default Places10;
+export default Unique1;

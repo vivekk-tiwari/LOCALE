@@ -1,7 +1,7 @@
 import React from 'react';
 import Places8Component from './Places_8_Component';
 
-function Places12()  {
+function Unique3()  {
     return (
         <>
         <div className="main10">
@@ -26,4 +26,4 @@ function Places12()  {
     );
 }
 
-export default Places12;
+export default Unique3;

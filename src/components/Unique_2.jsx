@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Places11 ()  {
+function Unique2 ()  {
     return (
         <>
         <div className="main9">
@@ -21,4 +21,4 @@ function Places11 ()  {
     );
 }
 
-export default Places11;
+export default Unique2;
