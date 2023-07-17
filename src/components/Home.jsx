@@ -1,5 +1,5 @@
 import React from 'react';
-import Search from './Search';
+// import Search from './Search';
 
 function Home(){
     return (
@@ -7,7 +7,7 @@ function Home(){
             <div className="home_heading">
                 <p id='home_title'>Welcome To The City Beautiful</p>
                 <p id='home_title1'>Chandigarh</p>
-                <Search id='home_search'/>
+                {/* <Search id='home_search'/> */}
             </div>
 
             <div className="home_image">

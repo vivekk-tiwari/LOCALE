@@ -5,11 +5,12 @@ body{
 
 /*NAVBAR COMPONENT CSS */
 .Navbar_main{
-    margin-top: 3%;
+    padding-top:3vh;
     width:98vw;
     display: inline-flex;
     height:8vw;
     gap:30vw;
+
 }
 
 .Navbar_heading{
@@ -43,6 +44,7 @@ body{
     font-size: 2em;
     font-family: 'PT Serif', serif;
     text-align: center;
+    width:35vw;
 }
 
 #home_title1{
@@ -99,9 +101,11 @@ body{
 
 /* EXPLORE COMPONENT CSS */
 .explore_main{
-    margin-top: 20%;
+    margin-top: 18%;
     display:inline-flex;
     flex-direction: column;
+    margin-bottom:25%;
+    gap:10%;
 }
 #explore_img{
     margin-left: 12%;
@@ -120,25 +124,22 @@ body{
     margin-top: 80px;
     margin-bottom: 100px;
 }
-.explore_main{
-    margin-top: 20%;
-    /* height:100vh; */
-    /* width:98vw; */
-    margin-bottom:25%;
-    gap:10%;
-}
+
 #explore_title{
     /* height: 5.8vh;
     width:80%; */
     font-size: 3.5em;
     font-family: 'PT Serif', serif;
+    text-align: center;
 }
 .explore_heading{
     width:100%;
     margin-left:50%;
+    display: flex;
+    flex-direction: column;
 }
 #explore_title_2{
-    font-size:2.1em;
+    font-size:2em;
     /* width: 110%; */
     /* margin-top: 7%;  */
     font-family: 'PT Serif', serif;
