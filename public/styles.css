@@ -184,6 +184,8 @@ body{
     margin-left: 45%;
 }
 .features_img{
+    display: grid;
+    grid-template-columns: auto;
     padding: 1.7em;
 }
 #text1{
@@ -944,4 +946,73 @@ margin-bottom: 20%;
 .unique_4_main{
     display:flex;
     flex-direction: column;
+}
+
+/* RESPONSIVENESS */
+@media screen and (min-width:320px) and (max-width:420px){
+    .features_main{
+        flex-direction: column;
+    }
+    .features_main_2{
+        margin-left: 0;
+    }
+    #feature_img_1,#feature_img_2{
+        width: 60vw;
+        height: 32vh;
+    }
+    .features_img{
+        margin-top: 8%;
+    }
+    #feature_text_id_1,#feature_text_id_2{
+        font-size: 1.6em;
+    }
+
+
+    #img1{
+       height: 32vh;
+    }
+    #photogallery_text{
+        font-size: 3.2em;
+    }
+    .photogallery_heading,.PhotoGallery_main{
+        margin-left: 10%;
+    }
+
+    .team_main_2{
+        grid-template-columns: auto;
+    }
+    #team_component_img{
+        width: 42%;
+        height: 27vh;
+    }
+    .team_main{
+        margin-left: 0;
+    }
+    .team_heading{
+        margin-bottom: 11%;
+    }
+    .team_component{
+        margin-top: 0;
+        margin-left: 0;
+        width: 60%;
+    }
+    #team_heading_text{
+        font-size: 2.2em;
+        width: 51vw;
+        margin-left: 15%;
+    }
+    .line{
+        margin-left: 10%;
+        width: 70vw;
+    }
+
+    .about_main{
+        margin-left: 7%;
+    }
+    #about_text{
+        font-size: 2.2em;
+    }
+    #about_text_2{
+        font-size: 1.8em;
+    }
 }
