@@ -4,7 +4,7 @@ import Places6Component from './Places_6_Component';
 
 
 function Places6() {
-  const [mapVisible, setMapVisible] = useState(true);
+  const [mapVisible, setMapVisible] = useState(false);
 
   const toggleMapVisibility = () => {
     setMapVisible(!mapVisible);
